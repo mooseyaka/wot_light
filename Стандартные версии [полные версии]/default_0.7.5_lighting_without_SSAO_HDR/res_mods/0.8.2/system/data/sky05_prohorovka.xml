@@ -1,0 +1,105 @@
+<sky05_prohorovka.xml>
+  <texture>system/maps/sky_gradient_Prohorovka.dds</texture>
+  <light_map>
+    <material>system/materials/sky_light_map.mfm</material>
+    <width>	512	</width>
+    <height>	512	</height>
+    <timeToleranceSecs>	0	</timeToleranceSecs>
+    <textureFeedName>skyLightMap</textureFeedName>
+    <effectTextureName>SkyLightMap</effectTextureName>
+    <effectTransformName>	SkyLightMapTransform	</effectTransformName>
+  </light_map>
+  <mieAmount>	0.100000	</mieAmount>
+  <turbidityOffset>	0.140000	</turbidityOffset>
+  <turbidityFactor>	0.320000	</turbidityFactor>
+  <vertexHeightEffect>	0.340000	</vertexHeightEffect>
+  <sunHeightEffect>	0.790000	</sunHeightEffect>
+  <power>	1.000000	</power>
+  <farPlane>	1500.000000	</farPlane> <nearFog>	1.000000	</nearFog>
+  <drawSunAndMoon>	true	</drawSunAndMoon>
+  <day_night_cycle>
+    <angle>	46.000000	</angle>
+<!-- градус подъема -->
+    <angleZ>	0.000000	</angleZ>
+<!-- градус поворота -->
+    <sunScale>	0.670000	</sunScale>
+    <sunMoonDistance>	1500.000000	</sunMoonDistance>
+    <sunColor>	255.000000 255.000000 255.000000	</sunColor>
+    <sunTexture>
+    </sunTexture>
+    <moonAngle>	65.930000	</moonAngle>
+    <moonScale>	1.000000	</moonScale>
+    <moonColor>	255.000000 255.000000 255.000000	</moonColor>
+    <moonTexture>
+    </moonTexture>
+    <hourlength>	0.000000	</hourlength>
+    <starttime>	13.500000	</starttime>
+    <lightkey>
+      <time>	0.000000	</time>
+      <colour>	219.000000 192.000000 192.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	10.741940	</time>
+      <colour>	246.000000 230.000000 159.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	20.322580	</time>
+      <colour>	240.000000 185.000000 151.000000	</colour>
+    </lightkey>
+    <ambientkey>
+      <time>	0.000000	</time>
+      <colour>	17.000000 67.000000 80.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	0.096774	</time>
+      <colour>	104.000000 95.000000 85.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	10.064520	</time>
+      <colour>	94.000000 107.000000 124.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	23.806450	</time>
+      <colour>	61.000000 62.000000 94.000000	</colour>
+    </ambientkey>
+  </day_night_cycle>
+  <HDR>
+    <version>	1	</version>
+    <enable>	false	</enable>
+    <adaptationSpeed>	0	</adaptationSpeed>
+    <avgLumUpdateInterval>	0.000000	</avgLumUpdateInterval>
+    <bloom>
+      <enable>	false	</enable>
+      <brightThreshold>	0.000000	</brightThreshold>
+      <brightOffset>	0.000000	</brightOffset>
+      <factor>	0.000000	</factor>
+    </bloom>
+    <tonemapping>
+      <eyeDarkLimit>	0.000000	</eyeDarkLimit>
+      <eyeLightLimit>	0.000000	</eyeLightLimit>
+      <middleGray>	0.000000	</middleGray>
+      <whitePoint>	0.000000	</whitePoint>
+    </tonemapping>
+    <environment>
+      <skyLumMultiplier>	0.300000	</skyLumMultiplier>
+<sunLumMultiplier>	0.300000	</sunLumMultiplier>
+      <ambientLumMultiplier>	1.000000	</ambientLumMultiplier>
+      <fogLumMultiplier>	0.000000	</fogLumMultiplier>
+    </environment>
+    <gammaCorrection>
+      <enabled>	false	</enabled>
+      <gamma>	2.200000	</gamma>
+    </gammaCorrection>
+  </HDR>
+  <SSAO>
+    <enable>	false	</enable>
+    <redius>	0.000000	</redius>
+    <amplify>	0.000000	</amplify>
+    <fogLumMultiplier>	0.000000	</fogLumMultiplier>
+    <influences>
+      <speedtree>	0.000000 0.000000	</speedtree>
+      <terrain>	0.000000 0.000000	</terrain>
+      <objects>	0.000000 0.000000	</objects>
+    </influences>
+  </SSAO>
+</sky05_prohorovka.xml>

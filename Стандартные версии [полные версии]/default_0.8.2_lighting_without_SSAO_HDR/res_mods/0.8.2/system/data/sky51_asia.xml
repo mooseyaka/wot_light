@@ -1,0 +1,131 @@
+<sky51_asia.xml>
+  <texture>system/maps/sky_gradient_51_asia.dds</texture>
+  <drawSunAndMoon>	true	</drawSunAndMoon>
+  <mieAmount>	0.530000	</mieAmount>
+  <turbidityOffset>	0.000000	</turbidityOffset>
+  <turbidityFactor>	0.490000	</turbidityFactor>
+  <vertexHeightEffect>	0.000000	</vertexHeightEffect>
+  <sunHeightEffect>	0.000000	</sunHeightEffect>
+  <power>	1.000000	</power>
+  <farPlane>	1000.000000	</farPlane>
+  <nearFog>   0.950000</nearFog>
+  <day_night_cycle>
+    <angle>	49.190000	</angle>
+    <angleZ>	0.000000	</angleZ>
+    <sunScale>	0.330000	</sunScale>
+    <sunColor>	201.000000 163.000000 61.000000	</sunColor>
+    <sunTexture>
+    </sunTexture>
+    <moonAngle>	39.770000	</moonAngle>
+    <moonScale>	1.000000	</moonScale>
+    <moonColor>	255.000000 255.000000 255.000000	</moonColor>
+    <moonTexture>
+    </moonTexture>
+    <hourlength>	0.000000	</hourlength>
+    <starttime>	11.350000	</starttime>
+    <lightkey>
+      <time>	0.000000	</time>
+      <colour>	43.000000 112.000000 168.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	2.806451	</time>
+      <colour>	28.000000 81.000000 110.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	5.032258	</time>
+      <colour>	227.000000 220.000000 47.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	7.935483	</time>
+      <colour>	223.000000 219.000000 182.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	11.516130	</time>
+      <colour>	255.000000 244.000000 228.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	14.516130	</time>
+      <colour>	246.000000 226.000000 211.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	17.516130	</time>
+      <colour>	244.000000 124.000000 4.000000	</colour>
+    </lightkey>
+    <ambientkey>
+      <time>	0.000000	</time>
+      <colour>	47.000000 62.000000 76.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	2.806451	</time>
+      <colour>	21.000000 81.000000 130.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	4.161290	</time>
+      <colour>	104.000000 97.000000 78.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	5.516129	</time>
+      <colour>	120.000000 120.000000 120.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	9.677419	</time>
+      <colour>	91.000000 91.000000 91.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	11.419350	</time>
+      <colour>	116.000000 151.000000 177.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	16.645160	</time>
+      <colour>	174.000000 165.000000 165.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	17.903220	</time>
+      <colour>	101.000000 89.000000 75.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	18.967740	</time>
+      <colour>	100.645200 100.225800 120.774200	</colour>
+    </ambientkey>
+  </day_night_cycle>
+  <HDR>
+    <version>	1	</version>
+    <enable>	false	</enable>
+    <adaptationSpeed>	0.000000	</adaptationSpeed>
+    <avgLumUpdateInterval>	0.000000	</avgLumUpdateInterval>
+    <bloom>
+      <enable>	false	</enable>
+      <brightThreshold>	0.000000	</brightThreshold>
+      <brightOffset>	0.000000	</brightOffset>
+      <factor>	0.000000	</factor>
+    </bloom>
+    <tonemapping>
+      <eyeDarkLimit>	0.000000	</eyeDarkLimit>
+      <eyeLightLimit>	0.000000	</eyeLightLimit>
+      <middleGray>	0.000000	</middleGray>
+      <whitePoint>	0.000000	</whitePoint>
+    </tonemapping>
+<environment>
+      <skyLumMultiplier>	1.400000	</skyLumMultiplier>
+      <sunLumMultiplier>	1.400000	</sunLumMultiplier>
+      <ambientLumMultiplier>	1.800000	</ambientLumMultiplier>
+      <fogLumMultiplier>	1.500000	</fogLumMultiplier>
+    </environment>
+    <gammaCorrection>
+      <enabled>	false	</enabled>
+      <gamma>	0.000000	</gamma>
+    </gammaCorrection>
+  </HDR>
+  <SSAO>
+    <enable>	false	</enable>
+	<redius>	0.000000	</redius>
+    <amplify>	0.000000	</amplify>
+    <fade>	0.000000	</fade>
+    <influences>
+      <speedtree>	0.000000 0.000000	</speedtree>
+      <terrain>	0.000000 0.000000	</terrain>
+      <objects>	0.000000 0.000000	</objects>
+    </influences>
+  </SSAO>
+
+</sky51_asia.xml>

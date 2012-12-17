@@ -1,0 +1,64 @@
+<sky28_river_desert.xml>
+  <texture>system/maps/sky_gradient_Desert.dds</texture>
+  <drawSunAndMoon>	true	</drawSunAndMoon>
+  <mieAmount>	0.400000	</mieAmount>
+  <turbidityOffset>	0.150000	</turbidityOffset>
+  <turbidityFactor>	0.100000	</turbidityFactor>
+  <vertexHeightEffect>	0.000000	</vertexHeightEffect>
+  <sunHeightEffect>	0.000000	</sunHeightEffect>
+  <power>	1.000000	</power>
+  <farplane>1200.000000</farplane>
+  <nearFog>	0.950000	</nearFog>
+  <day_night_cycle>
+    <angle>	50.000000	</angle>
+    <angleZ>	130.260000	</angleZ>
+    <sunScale>	0.350000	</sunScale>
+    <sunColor>	132.000000 130.000000 108.000000	</sunColor>
+    <sunTexture>
+    </sunTexture>
+    <moonAngle>	90.000000	</moonAngle>
+    <moonScale>	1.000000	</moonScale>
+    <moonColor>	255.000000 255.000000 255.000000	</moonColor>
+    <moonTexture>
+    </moonTexture>
+    <hourlength>	0.000000	</hourlength>
+    <starttime>	16.000000	</starttime>
+    <lightkey>
+      <time>	0.000000	</time>
+      <colour>	219.000000 192.000000 192.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	15.932580	</time>
+      <colour>	236.000000 220.000000 149.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	20.322580	</time>
+      <colour>	240.000000 185.000000 151.000000	</colour>
+    </lightkey>
+    <ambientkey>
+      <time>	0.000000	</time>
+      <colour>	77.000000 77.000000 77.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	0.096774	</time>
+      <colour>	104.000000 95.000000 85.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	15.935480	</time>
+      <colour>	150.000000 150.000000 150.000000	</colour>
+    </ambientkey>
+  </day_night_cycle>
+  <HDR>
+    <version>	1	</version>
+    <enable>	false	</enable>
+    <environment>
+      <skyLumMultiplier>	1.000000	</skyLumMultiplier>
+      <sunLumMultiplier>	1.000000	</sunLumMultiplier>
+      <ambientLumMultiplier>	0.800000	</ambientLumMultiplier>
+      <fogLumMultiplier>	1.000000	</fogLumMultiplier>
+    </environment>
+ </HDR>
+    <SSAO>
+    <enable>	false	</enable>
+  </SSAO><!-- <madeby>mooseyaka</madeby> -->
+</sky28_river_desert.xml>

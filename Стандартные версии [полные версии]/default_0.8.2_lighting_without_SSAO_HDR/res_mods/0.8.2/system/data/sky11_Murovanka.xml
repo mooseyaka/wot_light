@@ -1,0 +1,117 @@
+<sky11_murovanka.xml>
+  <texture>system/maps/sky_gradient_Murovanka.dds</texture>
+  <drawSunAndMoon>	true	</drawSunAndMoon>
+  <light_map>
+    <material>system/materials/sky_light_map.mfm</material>
+    <width>	512	</width>
+    <height>	512	</height>
+    <timeToleranceSecs>	0	</timeToleranceSecs>
+    <textureFeedName>skyLightMap</textureFeedName>
+    <effectTextureName>SkyLightMap</effectTextureName>
+    <effectTransformName>	SkyLightMapTransform	</effectTransformName>
+  </light_map>
+  <mieAmount>	0.050000	</mieAmount>
+  <turbidityOffset>	0.020000	</turbidityOffset>
+  <turbidityFactor>	0.330000	</turbidityFactor>
+  <vertexHeightEffect>	0.340000	</vertexHeightEffect>
+  <sunHeightEffect>	0.000000	</sunHeightEffect>
+  <power>	7.760000	</power>
+  <farPlane>	800.000000	</farPlane>
+  <drawSunAndMoon>	true	</drawSunAndMoon>
+  <nearFog>   0.950000</nearFog>
+  <day_night_cycle>
+    <angle>	32.440000	</angle>
+    <angleZ>	0.000000	</angleZ>
+    <sunScale>	0.400000	</sunScale>
+    <sunColor>	236.000000 217.000000 111.000000	</sunColor>
+    <sunTexture>
+    </sunTexture>
+    <moonAngle>	19.880000	</moonAngle>
+    <moonScale>	0.210000	</moonScale>
+    <moonColor>	255.000000 255.000000 255.000000	</moonColor>
+    <moonTexture>
+    </moonTexture>
+    <hourlength>	0.000000	</hourlength>
+    <starttime>	15.300000	</starttime>
+    <lightkey>
+      <time>	0.000000	</time>
+      <colour>	43.000000 112.000000 168.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	8.322580	</time>
+      <colour>	232.000000 200.000000 132.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	15.370790	</time>
+      <colour>	255.000000 209.730500 159.222000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	16.064510	</time>
+      <colour>	232.000000 190.000000 146.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	17.032260	</time>
+      <colour>	244.000000 124.000000 4.000000	</colour>
+    </lightkey>
+    <ambientkey>
+      <time>	0.000000	</time>
+      <colour>	21.000000 81.000000 130.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	8.322580	</time>
+      <colour>	94.000000 105.000000 123.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	11.612900	</time>
+      <colour>	94.000000 105.000000 123.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	15.280900	</time>
+      <colour>	146.785900 163.841200 178.500000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	16.161290	</time>
+      <colour>	69.000000 77.000000 82.000000	</colour>
+    </ambientkey>
+  </day_night_cycle>
+  <HDR>
+    <version>	1	</version>
+    <enable>	false	</enable>
+    <adaptationSpeed>	0.000000	</adaptationSpeed>
+    <avgLumUpdateInterval>	0.000000	</avgLumUpdateInterval>
+    <bloom>
+      <enable>	false	</enable>
+      <brightThreshold>	0.000000	</brightThreshold>
+      <brightOffset>	0.000000	</brightOffset>
+      <factor>	0.000000	</factor>
+    </bloom>
+    <tonemapping>
+      <eyeDarkLimit>	0.000000	</eyeDarkLimit>
+      <eyeLightLimit>	0.000000	</eyeLightLimit>
+      <middleGray>	0.000000	</middleGray>
+      <whitePoint>	0.000000	</whitePoint>
+    </tonemapping>
+<environment>
+      <skyLumMultiplier>	1.400000	</skyLumMultiplier>
+      <sunLumMultiplier>	1.400000	</sunLumMultiplier>
+      <ambientLumMultiplier>	1.800000	</ambientLumMultiplier>
+      <fogLumMultiplier>	1.500000	</fogLumMultiplier>
+    </environment>
+    <gammaCorrection>
+      <enabled>	false	</enabled>
+      <gamma>	0.000000	</gamma>
+    </gammaCorrection>
+  </HDR>
+  <SSAO>
+    <enable>	false	</enable>
+	<redius>	0.000000	</redius>
+    <amplify>	0.000000	</amplify>
+    <fade>	0.000000	</fade>
+    <influences>
+      <speedtree>	0.000000 0.000000	</speedtree>
+      <terrain>	0.000000 0.000000	</terrain>
+      <objects>	0.000000 0.000000	</objects>
+    </influences>
+  </SSAO>
+
+</sky11_murovanka.xml>

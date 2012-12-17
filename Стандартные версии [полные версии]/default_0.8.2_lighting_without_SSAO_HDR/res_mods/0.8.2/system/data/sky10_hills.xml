@@ -1,0 +1,106 @@
+<sky10_hills.xml>
+  <texture>system/maps/sky_gradient_Hills.dds</texture>
+  <mieAmount>	0.550000	</mieAmount>
+  <turbidityOffset>	0.700000	</turbidityOffset>
+  <turbidityFactor>	0.100000	</turbidityFactor>
+  <vertexHeightEffect>	1.000000	</vertexHeightEffect>
+  <sunHeightEffect>	1.000000	</sunHeightEffect>
+  <power>	4.000000	</power>
+  <nearFog>   0.950000</nearFog>
+  <farPlane>	800.000000	</farPlane>
+  <day_night_cycle>
+    <angle>	55.380000	</angle>
+    <angleZ>	18.460000	</angleZ>
+    <sunScale>	1.000000	</sunScale>
+    <sunColor>	255.000000 255.000000 255.000000	</sunColor>
+    <sunTexture>
+    </sunTexture>
+    <moonAngle>	90.000000	</moonAngle>
+    <moonScale>	1.000000	</moonScale>
+    <moonColor>	255.000000 255.000000 255.000000	</moonColor>
+    <moonTexture>
+    </moonTexture>
+    <hourlength>	0.000000	</hourlength>
+    <starttime>	15.000000	</starttime>
+    <lightkey>
+      <time>	0.000000	</time>
+      <colour>	43.000000 112.000000 168.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	8.322580	</time>
+      <colour>	232.000000 200.000000 132.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	11.612900	</time>
+      <colour>	232.000000 212.000000 171.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	15.011240	</time>
+      <colour>	255.000000 174.771600 84.458560	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	17.806450	</time>
+      <colour>	244.000000 124.000000 4.000000	</colour>
+    </lightkey>
+    <ambientkey>
+      <time>	0.000000	</time>
+      <colour>	21.000000 81.000000 130.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	8.322580	</time>
+      <colour>	94.000000 105.000000 123.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	11.612900	</time>
+      <colour>	94.000000 105.000000 123.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	15.011240	</time>
+      <colour>	119.857500 133.826000 150.450000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	18.193550	</time>
+      <colour>	69.000000 77.000000 82.000000	</colour>
+    </ambientkey>
+  </day_night_cycle>
+  <HDR>
+    <version>	1	</version>
+    <enable>	false	</enable>
+    <adaptationSpeed>	0.000000	</adaptationSpeed>
+    <avgLumUpdateInterval>	0.000000	</avgLumUpdateInterval>
+    <bloom>
+      <enable>	false	</enable>
+      <brightThreshold>	0.000000	</brightThreshold>
+      <brightOffset>	0.000000	</brightOffset>
+      <factor>	0.000000	</factor>
+    </bloom>
+    <tonemapping>
+      <eyeDarkLimit>	0.000000	</eyeDarkLimit>
+      <eyeLightLimit>	0.000000	</eyeLightLimit>
+      <middleGray>	0.000000	</middleGray>
+      <whitePoint>	0.000000	</whitePoint>
+    </tonemapping>
+<environment>
+      <skyLumMultiplier>	1.400000	</skyLumMultiplier>
+      <sunLumMultiplier>	1.400000	</sunLumMultiplier>
+      <ambientLumMultiplier>	1.800000	</ambientLumMultiplier>
+      <fogLumMultiplier>	1.500000	</fogLumMultiplier>
+    </environment>
+    <gammaCorrection>
+      <enabled>	false	</enabled>
+      <gamma>	0.000000	</gamma>
+    </gammaCorrection>
+  </HDR>
+  <SSAO>
+    <enable>	false	</enable>
+	<redius>	0.000000	</redius>
+    <amplify>	0.000000	</amplify>
+    <fade>	0.000000	</fade>
+    <influences>
+      <speedtree>	0.000000 0.000000	</speedtree>
+      <terrain>	0.000000 0.000000	</terrain>
+      <objects>	0.000000 0.000000	</objects>
+    </influences>
+  </SSAO>
+
+</sky10_hills.xml>

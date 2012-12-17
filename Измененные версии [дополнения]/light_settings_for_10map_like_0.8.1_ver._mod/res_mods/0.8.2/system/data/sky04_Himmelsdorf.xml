@@ -1,0 +1,114 @@
+<sky04_himmelsdorf.xml>
+  <texture>system/maps/sky_gradient_Himmelsdorf.dds</texture>
+  <drawSunAndMoon>	true	</drawSunAndMoon>
+  <light_map>
+    <material>system/materials/sky_light_map.mfm</material>
+    <width>	512	</width>
+    <height>	512	</height>
+    <timeToleranceSecs>	0	</timeToleranceSecs>
+    <textureFeedName>skyLightMap</textureFeedName>
+    <effectTextureName>SkyLightMap</effectTextureName>
+    <effectTransformName>	SkyLightMapTransform	</effectTransformName>
+  </light_map>
+  <mieAmount>	0.000000	</mieAmount>
+  <turbidityOffset>	0.000000	</turbidityOffset>
+  <turbidityFactor>	0.100000	</turbidityFactor>
+  <vertexHeightEffect>	0.000000	</vertexHeightEffect>
+  <sunHeightEffect>	0.000000	</sunHeightEffect>
+  <power>	1.000000	</power>
+  <farPlane>	1000.000000	</farPlane>
+  <nearFog>	0.950000	</nearFog>
+  <day_night_cycle>
+    <angle>	70.930000	</angle>
+    <angleZ>	49.190000	</angleZ>
+    <sunScale>	0.600000	</sunScale>
+    <sunMoonDistance>	1500.000000	</sunMoonDistance>
+    <sunColor>	201.000000 163.000000 61.000000	</sunColor>
+    <sunTexture>
+    </sunTexture>
+    <moonAngle>	90.000000	</moonAngle>
+    <moonScale>	1.000000	</moonScale>
+    <moonColor>	255.000000 255.000000 255.000000	</moonColor>
+    <moonTexture>
+    </moonTexture>
+    <hourlength>	0.000000	</hourlength>
+    <starttime>	16.000000	</starttime>
+    <lightkey>
+      <time>	0.000000	</time>
+      <colour>	43.000000 112.000000 168.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	2.806451	</time>
+      <colour>	28.000000 81.000000 110.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	5.032258	</time>
+      <colour>	227.000000 220.000000 47.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	8.032257	</time>
+      <colour>	236.000000 231.000000 169.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	12.870970	</time>
+      <colour>	255.000000 255.000000 255.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	14.516130	</time>
+      <colour>	246.000000 226.000000 211.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	17.516130	</time>
+      <colour>	255.000000 255.000000 255.000000	</colour>
+    </lightkey>
+    <ambientkey>
+      <time>	0.000000	</time>
+      <colour>	47.000000 62.000000 76.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	2.806451	</time>
+      <colour>	21.000000 81.000000 130.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	4.161290	</time>
+      <colour>	104.000000 97.000000 78.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	5.516129	</time>
+      <colour>	120.000000 120.000000 120.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	9.677419	</time>
+      <colour>	91.000000 91.000000 91.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	12.774190	</time>
+      <colour>	107.000000 107.000000 107.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	16.645160	</time>
+      <colour>	174.000000 174.000000 174.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	17.903220	</time>
+      <colour>	101.000000 89.000000 75.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	18.967740	</time>
+      <colour>	100.645200 100.225800 120.774200	</colour>
+    </ambientkey>
+  </day_night_cycle>
+  <HDR>
+    <version>	1	</version>
+    <enable>	false	</enable>
+    <environment>
+      <skyLumMultiplier>	1.000000	</skyLumMultiplier>
+      <sunLumMultiplier>	1.000000	</sunLumMultiplier>
+      <ambientLumMultiplier>	0.700000	</ambientLumMultiplier>
+      <fogLumMultiplier>	1.000000	</fogLumMultiplier>
+    </environment>
+ </HDR>
+    <SSAO>
+    <enable>	false	</enable>
+  </SSAO><!-- <madeby>mooseyaka</madeby> -->
+</sky04_himmelsdorf.xml>

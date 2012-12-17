@@ -1,0 +1,126 @@
+<sky47_canada_a.xml>
+  <drawSunAndMoon>	true	</drawSunAndMoon>
+  <light_map>
+    <material>system/materials/sky_light_map.mfm</material>
+    <width>	512	</width>
+    <height>	512	</height>
+    <timeToleranceSecs>	0	</timeToleranceSecs>
+    <textureFeedName>skyLightMap</textureFeedName>
+    <effectTextureName>SkyLightMap</effectTextureName>
+    <effectTransformName>	SkyLightMapTransform	</effectTransformName>
+  </light_map>
+  <mieAmount>	0.000000	</mieAmount>
+  <turbidityOffset>	0.000000	</turbidityOffset>
+  <turbidityFactor>	0.100000	</turbidityFactor>
+  <vertexHeightEffect>	0.000000	</vertexHeightEffect>
+  <sunHeightEffect>	0.000000	</sunHeightEffect>
+  <power>	1.000000	</power>
+  <texture>system/maps/sky_gradient_Canada_a.dds</texture>
+  <mieAmount>	0.100000	</mieAmount>
+  <turbidityOffset>	0.140000	</turbidityOffset>
+  <turbidityFactor>	0.330000	</turbidityFactor>
+  <vertexHeightEffect>	0.340000	</vertexHeightEffect>
+  <sunHeightEffect>	0.190000	</sunHeightEffect>
+  <power>	1.000000	</power>
+  <farPlane>	1200.000000	</farPlane>
+  <nearFog>   0.950000</nearFog>
+  <day_night_cycle>
+    <angle>	55.380000	</angle>
+    <angleZ>	0.000000	</angleZ>
+    <sunScale>	0.300000	</sunScale>
+    <sunColor>	255.000000 223.125000 178.500000	</sunColor>
+    <sunTexture>
+    </sunTexture>
+    <moonAngle>	48.140000	</moonAngle>
+    <moonScale>	1.000000	</moonScale>
+    <moonColor>	255.000000 255.000000 255.000000	</moonColor>
+    <moonTexture>
+    </moonTexture>
+    <hourlength>	0.000000	</hourlength>
+    <starttime>	9.000000	</starttime>
+    <lightkey>
+      <time>	0.000000	</time>
+      <colour>	43.000000 112.000000 168.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	4.020000	</time>
+      <colour>	28.000000 81.000000 110.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	5.070000	</time>
+      <colour>	57.000000 81.000000 110.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	6.400001	</time>
+      <colour>	207.000000 157.000000 90.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	8.898876	</time>
+      <colour>	246.001100 215.250900 172.200700	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	16.950000	</time>
+      <colour>	246.000000 195.000000 157.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	17.870000	</time>
+      <colour>	244.000000 124.000000 4.000000	</colour>
+    </lightkey>
+    <ambientkey>
+      <time>	0.000000	</time>
+      <colour>	17.000000 67.000000 80.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	0.096774	</time>
+      <colour>	104.000000 95.000000 85.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	9.000000	</time>
+      <colour>	111.000000 128.000000 149.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	23.806450	</time>
+      <colour>	61.000000 62.000000 94.000000	</colour>
+    </ambientkey>
+  </day_night_cycle>
+  <HDR>
+    <version>	1	</version>
+    <enable>	false	</enable>
+    <adaptationSpeed>	0.000000	</adaptationSpeed>
+    <avgLumUpdateInterval>	0.000000	</avgLumUpdateInterval>
+    <bloom>
+      <enable>	false	</enable>
+      <brightThreshold>	0.000000	</brightThreshold>
+      <brightOffset>	0.000000	</brightOffset>
+      <factor>	0.000000	</factor>
+    </bloom>
+    <tonemapping>
+      <eyeDarkLimit>	0.000000	</eyeDarkLimit>
+      <eyeLightLimit>	0.000000	</eyeLightLimit>
+      <middleGray>	0.000000	</middleGray>
+      <whitePoint>	0.000000	</whitePoint>
+    </tonemapping>
+<environment>
+      <skyLumMultiplier>	1.400000	</skyLumMultiplier>
+      <sunLumMultiplier>	1.400000	</sunLumMultiplier>
+      <ambientLumMultiplier>	1.800000	</ambientLumMultiplier>
+      <fogLumMultiplier>	1.500000	</fogLumMultiplier>
+    </environment>
+    <gammaCorrection>
+      <enabled>	false	</enabled>
+      <gamma>	0.000000	</gamma>
+    </gammaCorrection>
+  </HDR>
+  <SSAO>
+    <enable>	false	</enable>
+	<redius>	0.000000	</redius>
+    <amplify>	0.000000	</amplify>
+    <fade>	0.000000	</fade>
+    <influences>
+      <speedtree>	0.000000 0.000000	</speedtree>
+      <terrain>	0.000000 0.000000	</terrain>
+      <objects>	0.000000 0.000000	</objects>
+    </influences>
+  </SSAO>
+
+</sky47_canada_a.xml>

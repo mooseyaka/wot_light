@@ -1,0 +1,92 @@
+<sky42_north_america.xml>
+  <texture>system/maps/sky_gradient_42_north_america.dds</texture>
+  <mieAmount>	0.100000	</mieAmount>
+  <turbidityOffset>	0.140000	</turbidityOffset>
+  <turbidityFactor>	0.320000	</turbidityFactor>
+  <vertexHeightEffect>	0.340000	</vertexHeightEffect>
+  <sunHeightEffect>	0.790000	</sunHeightEffect>
+  <power>	2.800000	</power>
+  <farPlane>	800.000000	</farPlane>
+  <nearFog>   0.950000</nearFog>
+  <day_night_cycle>
+    <angle>	64.880000	</angle>
+    <angleZ>	339.070000	</angleZ>
+    <sunScale>	0.560000	</sunScale>
+    <sunColor>	223.000000 152.000000 72.000000	</sunColor>
+    <sunTexture>system/maps/sun.dds</sunTexture>
+    <moonAngle>	65.930000	</moonAngle>
+    <moonScale>	1.000000	</moonScale>
+    <moonColor>	255.000000 255.000000 255.000000	</moonColor>
+    <moonTexture>system/maps/sun.dds</moonTexture>
+    <hourlength>	0.000000	</hourlength>
+    <starttime>	9.000000	</starttime>
+    <lightkey>
+      <time>	0.000000	</time>
+      <colour>	219.000000 192.000000 192.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	10.741940	</time>
+      <colour>	246.000000 230.000000 159.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	20.322580	</time>
+      <colour>	240.000000 185.000000 151.000000	</colour>
+    </lightkey>
+    <ambientkey>
+      <time>	0.000000	</time>
+      <colour>	17.000000 67.000000 80.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	0.096774	</time>
+      <colour>	104.000000 95.000000 85.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	10.064520	</time>
+      <colour>	94.000000 107.000000 124.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	23.806450	</time>
+      <colour>	61.000000 62.000000 94.000000	</colour>
+    </ambientkey>
+  </day_night_cycle>
+  <HDR>
+    <version>	1	</version>
+    <enable>	false	</enable>
+    <adaptationSpeed>	0.000000	</adaptationSpeed>
+    <avgLumUpdateInterval>	0.000000	</avgLumUpdateInterval>
+    <bloom>
+      <enable>	false	</enable>
+      <brightThreshold>	0.000000	</brightThreshold>
+      <brightOffset>	0.000000	</brightOffset>
+      <factor>	0.000000	</factor>
+    </bloom>
+    <tonemapping>
+      <eyeDarkLimit>	0.000000	</eyeDarkLimit>
+      <eyeLightLimit>	0.000000	</eyeLightLimit>
+      <middleGray>	0.000000	</middleGray>
+      <whitePoint>	0.000000	</whitePoint>
+    </tonemapping>
+<environment>
+      <skyLumMultiplier>	1.400000	</skyLumMultiplier>
+      <sunLumMultiplier>	1.400000	</sunLumMultiplier>
+      <ambientLumMultiplier>	1.800000	</ambientLumMultiplier>
+      <fogLumMultiplier>	1.500000	</fogLumMultiplier>
+    </environment>
+    <gammaCorrection>
+      <enabled>	false	</enabled>
+      <gamma>	0.000000	</gamma>
+    </gammaCorrection>
+  </HDR>
+  <SSAO>
+    <enable>	false	</enable>
+	<redius>	0.000000	</redius>
+    <amplify>	0.000000	</amplify>
+    <fade>	0.000000	</fade>
+    <influences>
+      <speedtree>	0.000000 0.000000	</speedtree>
+      <terrain>	0.000000 0.000000	</terrain>
+      <objects>	0.000000 0.000000	</objects>
+    </influences>
+  </SSAO>
+
+</sky42_north_america.xml>

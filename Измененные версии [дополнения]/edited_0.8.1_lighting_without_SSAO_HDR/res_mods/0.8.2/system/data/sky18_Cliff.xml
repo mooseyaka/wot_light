@@ -1,0 +1,84 @@
+<sky18_cliff.xml>
+  <texture>system/maps/sky_gradient_Cliff.dds</texture>
+  <drawSunAndMoon>	true	</drawSunAndMoon>
+  <light_map>
+    <material>system/materials/sky_light_map.mfm</material>
+    <width>	512	</width>
+    <height>	512	</height>
+    <timeToleranceSecs>	0	</timeToleranceSecs>
+    <textureFeedName>skyLightMap</textureFeedName>
+    <effectTextureName>SkyLightMap</effectTextureName>
+    <effectTransformName>	SkyLightMapTransform	</effectTransformName>
+  </light_map>
+  <mieAmount>	0.100000	</mieAmount>
+  <turbidityOffset>	0.140000	</turbidityOffset>
+  <turbidityFactor>	0.320000	</turbidityFactor>
+  <vertexHeightEffect>	0.340000	</vertexHeightEffect>
+  <sunHeightEffect>	0.000000	</sunHeightEffect>
+  <power>	0.300000	</power>
+  <farPlane>	1000.000000	</farPlane>
+  <nearFog>	0.950000	</nearFog>
+  <day_night_cycle>
+    <angle>	15.000000	</angle>
+    <angleZ>	0.000000	</angleZ>
+    <sunScale>	0.300000	</sunScale>
+    <sunColor>	255.000000 255.000000 255.000000	</sunColor>
+    <sunTexture>system/maps/fx_mask_flare.dds</sunTexture>
+    <moonAngle>	65.930000	</moonAngle>
+    <moonScale>	0.100000	</moonScale>
+    <moonColor>	255.000000 255.000000 255.000000	</moonColor>
+    <moonTexture>
+    </moonTexture>
+    <hourlength>	0.000000	</hourlength>
+    <starttime>	9.480000	</starttime>
+    <lightkey>
+      <time>	0.000000	</time>
+      <colour>	15.000000 34.000000 134.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	9.460321	</time>
+      <colour>	220.000000 202.000000 198.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	15.000000	</time>
+      <colour>	255.000000 255.000000 255.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	17.806450	</time>
+      <colour>	250.000000 189.000000 128.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	24.000000	</time>
+      <colour>	15.000000 34.000000 134.000000	</colour>
+    </lightkey>
+    <ambientkey>
+      <time>	0.000000	</time>
+      <colour>	21.000000 81.000000 130.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	8.419354	</time>
+      <colour>	197.000000 197.000000 192.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	15.000000	</time>
+      <colour>	119.000000 124.000000 135.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	18.193550	</time>
+      <colour>	69.000000 77.000000 82.000000	</colour>
+    </ambientkey>
+  </day_night_cycle>
+   <HDR>
+    <version>	1	</version>
+    <enable>	false	</enable>
+    <environment>
+      <skyLumMultiplier>	1.000000	</skyLumMultiplier>
+      <sunLumMultiplier>	1.000000	</sunLumMultiplier>
+      <ambientLumMultiplier>	0.800000	</ambientLumMultiplier>
+      <fogLumMultiplier>	1.000000	</fogLumMultiplier>
+    </environment>
+ </HDR>
+    <SSAO>
+    <enable>	false	</enable>
+  </SSAO><!-- <madeby>mooseyaka</madeby> -->
+</sky18_cliff.xml>

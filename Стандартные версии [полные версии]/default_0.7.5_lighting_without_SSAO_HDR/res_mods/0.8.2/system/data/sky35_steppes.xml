@@ -1,0 +1,104 @@
+<sky35_steppes.xml>
+  <texture>system/maps/sky_gradient_35_steppes.dds</texture>
+  <drawSunAndMoon>	true	</drawSunAndMoon>
+  <mieAmount>	0.100000	</mieAmount>
+  <turbidityOffset>	0.140000	</turbidityOffset>
+  <turbidityFactor>	0.320000	</turbidityFactor>
+  <vertexHeightEffect>	0.340000	</vertexHeightEffect>
+  <sunHeightEffect>	0.790000	</sunHeightEffect>
+  <power>	1.000000	</power>
+  <farPlane>	1500.000000	</farPlane> <nearFog>	1.000000	</nearFog>
+  <day_night_cycle>
+    <angle>	50.230000	</angle>
+<!-- градус подъема -->
+    <angleZ>	0.000000	</angleZ>
+<!-- градус поворота -->
+    <sunScale>	0.560000	</sunScale>
+    <sunMoonDistance>	1500.000000	</sunMoonDistance>
+    <sunColor>	255.000000 255.000000 255.000000	</sunColor>
+    <sunTexture>
+    </sunTexture>
+    <moonAngle>	90.000000	</moonAngle>
+    <moonScale>	1.000000	</moonScale>
+    <moonColor>	255.000000 255.000000 255.000000	</moonColor>
+    <moonTexture>
+    </moonTexture>
+    <hourlength>	0.000000	</hourlength>
+    <starttime>	14.480000	</starttime>
+    <lightkey>
+      <time>	0.000000	</time>
+      <colour>	15.000000 34.000000 134.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	6.290321	</time>
+      <colour>	220.000000 202.000000 178.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	15.000000	</time>
+      <colour>	255.000000 255.000000 255.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	17.806450	</time>
+      <colour>	250.000000 189.000000 128.000000	</colour>
+    </lightkey>
+    <lightkey>
+      <time>	24.000000	</time>
+      <colour>	15.000000 34.000000 134.000000	</colour>
+    </lightkey>
+    <ambientkey>
+      <time>	0.000000	</time>
+      <colour>	21.000000 81.000000 130.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	8.419354	</time>
+      <colour>	107.000000 107.000000 102.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	15.000000	</time>
+      <colour>	119.000000 124.000000 135.000000	</colour>
+    </ambientkey>
+    <ambientkey>
+      <time>	18.193550	</time>
+      <colour>	69.000000 77.000000 82.000000	</colour>
+    </ambientkey>
+  </day_night_cycle>
+  <HDR>
+    <version>	1	</version>
+    <enable>	false	</enable>
+    <adaptationSpeed>	0	</adaptationSpeed>
+    <avgLumUpdateInterval>	0.000000	</avgLumUpdateInterval>
+    <bloom>
+      <enable>	false	</enable>
+      <brightThreshold>	0.000000	</brightThreshold>
+      <brightOffset>	0.000000	</brightOffset>
+      <factor>	0.000000	</factor>
+    </bloom>
+    <tonemapping>
+      <eyeDarkLimit>	0.000000	</eyeDarkLimit>
+      <eyeLightLimit>	0.000000	</eyeLightLimit>
+      <middleGray>	0.000000	</middleGray>
+      <whitePoint>	0.000000	</whitePoint>
+    </tonemapping>
+    <environment>
+      <skyLumMultiplier>	0.300000	</skyLumMultiplier>
+<sunLumMultiplier>	0.300000	</sunLumMultiplier>
+      <ambientLumMultiplier>	1.000000	</ambientLumMultiplier>
+      <fogLumMultiplier>	0.000000	</fogLumMultiplier>
+    </environment>
+    <gammaCorrection>
+      <enabled>	false	</enabled>
+      <gamma>	2.200000	</gamma>
+    </gammaCorrection>
+  </HDR>
+  <SSAO>
+    <enable>	false	</enable>
+    <redius>	0.000000	</redius>
+    <amplify>	0.000000	</amplify>
+    <fogLumMultiplier>	0.000000	</fogLumMultiplier>
+    <influences>
+      <speedtree>	0.000000 0.000000	</speedtree>
+      <terrain>	0.000000 0.000000	</terrain>
+      <objects>	0.000000 0.000000	</objects>
+    </influences>
+  </SSAO>
+</sky35_steppes.xml>
